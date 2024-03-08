@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "index.ts"),
-      name: "ViteButton",
+      name: "esrafilButton",
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
