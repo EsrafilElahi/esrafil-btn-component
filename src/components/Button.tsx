@@ -10,7 +10,7 @@ interface Props {
   children?: React.ReactNode;
 }
 
-const Button = (props: Props) => {
+export const Button = (props: Props) => {
   return (
     <>
       <button onClick={props.onClick} {...props}>
@@ -19,5 +19,3 @@ const Button = (props: Props) => {
     </>
   );
 };
-
-export default Button;
